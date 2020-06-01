@@ -1,0 +1,26 @@
+{
+  "onlinestore": {
+    "title": "Tienda Online",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "button": "Compra ahora"
+  },
+  "services": {
+    "title": "Servicios",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    "yourbeauty": {
+      "imgurl": "https://cdn0.iconfinder.com/data/icons/elasto-online-store/26/00-ELASTOFONT-STORE-READY_user-circle-512.png",
+      "title": "Tu belleza",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+    },
+    "availabilitylocation": {
+      "imgurl": "https://cdn0.iconfinder.com/data/icons/elasto-online-store/26/00-ELASTOFONT-STORE-READY_user-circle-512.png",
+      "title": "Tu disponibilidad y tu ubicación",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+    },
+    "ourprofessionals": {
+      "imgurl": "https://cdn0.iconfinder.com/data/icons/elasto-online-store/26/00-ELASTOFONT-STORE-READY_user-circle-512.png",
+      "title": "Nuestros profesionales",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+    }
+  }
+}
