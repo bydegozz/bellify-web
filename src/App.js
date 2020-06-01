@@ -1,26 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// database
+import database from "./database.json";
+
+// components
+import TitleDescription from "./components/TitleDescription";
+
+class App extends Component {
+  state = { database };
+  //console.log(this.state.database);
+  render() {
+    const { onlinestore, services } = this.state.database;
+    return (
+      <div>
+        <TitleDescription
+          title={onlinestore.title}
+          description={onlinestore.description}
+          button={onlinestore.button}
+        />
+        <TitleDescription
+          title={services.yourbeauty.title}
+          description={services.yourbeauty.description}
+        />
+        <TitleDescription
+          title={services.availabilitylocation.title}
+          description={services.availabilitylocation.description}
+        />
+        <TitleDescription
+          imgurl={services.ourprofessionals.imgurl}
+          title={services.ourprofessionals.title}
+          description={services.ourprofessionals.description}
+        />
+      </div>
+    );
+  }
 }
 
 export default App;
